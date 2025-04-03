@@ -169,11 +169,12 @@ align-items: center;
     color: #434455;
 }
 
-                                                /*third section*/
+                                                /*second section*/
 
 
 .section-second {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .team-style {
@@ -187,18 +188,28 @@ align-items: center;
 
 .section-second-list {
     list-style: none;
+    display: flex;
+    gap: 24px;
 }
 
 .team-list {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
+.empl {
+    padding: 32px 0;
+}
 .employee {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 72px;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .direction {
@@ -206,6 +217,7 @@ align-items: center;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
 
 
