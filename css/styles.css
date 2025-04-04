@@ -180,7 +180,7 @@ align-items: center;
 }
 
 .first-list {
-    width: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .strategy-headings {
